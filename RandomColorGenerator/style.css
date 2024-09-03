@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+    margin: 10vw;
+}
+h3{
+ 
+    margin: 2vw;
+    font-size: 3rem;
+}
+button{
+    margin: 2vw;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius:5px ;
+}
+
+.box{
+    border: 2px solid black;
+    height: 30vw;
+    width: 50vw;
+    padding-left: 20vw;
+}
